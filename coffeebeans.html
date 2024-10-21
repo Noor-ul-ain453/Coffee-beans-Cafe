@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Beans Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="mynavbar" id="myNavbar">
+            <a href="#" class="right">
+                Coffee Beans  <i class="fas fa-mug-saucer"></i> 
+            </a>
+        </div>
+        <ul class="navbar">
+            <li><a href="#home" onclick="showSection('home')"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#menu" onclick="showSection('menu')"> <i class="fa-solid fa-bars"></i> Menu</a></li>
+            <li><a href="#about" onclick="showSection('about')"><i class="fa-regular fa-user"></i> About Us</a></li>
+            <li><a href="#contact" onclick="showSection('contact')"> <i class="fa-regular fa-envelope"></i> Contact</a></li>
+        </ul>
+    </div>
+    <main>
+        <section id="home" class="content">
+            <h2>Welcome to Coffee Beans!</h2>
+            <p class="intro-text">
+                Your perfect coffee experience starts here.<br>
+                At Coffee Beans, where every cup is special.<br>
+                Come and relax with us as you discover your new favorite coffee.<br>
+                Let’s make every moment a little sweeter together!
+            </p>
+            <button class="click-now-btn">Click Here For Order <i class="fa-solid fa-cart-shopping"></i></button>
+        </section>
+        <section id="menu" class="content">
+            <h2>Our Delicious Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Espresso</h3>
+                    <p>A concentrated coffee brewed by forcing hot water through finely-ground coffee beans. </p>
+                    <span class="price">$3.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Cappuccino</h3>
+                    <p>A classic Italian coffee drink made with equal parts espresso, steamed milk, and milk foam.</p>
+                    <span class="price">$4.50</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Latte</h3>
+                    <p>A creamy blend of espresso and steamed milk, typically topped with a small amount of milk foam.</p>
+                    <span class="price">$3.76</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Americano</h3>
+                    <p> It's a great option for those who prefer a less intense coffee experience.</p>
+                    <span class="price">$4.50</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Mocha</h3>
+                    <p>A delicious blend of espresso, steamed milk, and chocolate syrup, topped with whipped cream.</p>
+                    <span class="price">$5.26</span>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="content">
+            <h2>About Us</h2>
+            <div class="about-features">
+                <div class="feature">
+                    <h3>Our Story</h3>
+                    <i class="fa-regular fa-gem"></i>
+                    <p>Founded with a passion for coffee, Coffee Beans started as a small café with big dreams. Today, we proudly serve thousands of coffee lovers, offering a unique experience at every visit.</p>
+                </div>
+                <div class="feature">
+                    <h3>Our Branches</h3>
+                    <i class="fa-solid fa-shop"></i>
+                    <p>We have expanded across 5+ cities with over 25+ branches, each designed to provide a cozy, welcoming space where coffee and community come together.</p>
+                </div>
+                <div class="feature">
+                    <h3>Our Services</h3>
+                    <i class="fa-regular fa-heart"></i>
+                    <p>From fresh brews to personalized blends, we offer a variety of coffee options to suit every taste. Our skilled baristas ensure that each cup is crafted to perfection.</p>
+                </div>
+                <div class="feature">
+                    <h3>Our Quality</h3>
+                    <i class="fa-regular fa-star"></i>
+                    <p>We are committed to sourcing the finest beans and maintaining ethical partnerships with farmers. Our coffee is sustainably sourced and expertly roasted for the perfect flavor.</p>
+                </div>
+            </div>
+        </section> 
+        <section id="contact" class="content">
+            <h2>Contact Us</h2>
+            <h3>Lets get in touch with us!</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    
+                   <p><i class="fa-solid fa-envelope"></i>  Email: <a href="mailto:info@coffeebeans.com">info@coffeebeans.com</a></p>
+                </div>
+                <div class="contact-item">
+                    
+                    <p><i class="fa-solid fa-phone"></i>   Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+                </div>
+                <div class="contact-item">
+                   
+                    <p> <i class="fa-solid fa-globe"></i> Website: <a href="http://www.coffeebeans.com">www.coffeebeans.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <p>Follow us on:</p>
+                    <div class="social-icons">
+                        <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook </a><br>
+                        <a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a><br>
+                        <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Coffee Beans. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
